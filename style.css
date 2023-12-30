@@ -42,7 +42,7 @@ html {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 12px;
-  background: linear-gradient(135deg, #f57308, #fff, rgb(11, 242, 7));
+  background: linear-gradient(135deg, #1e3551, #1a6ad2, #1e3551);
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -249,7 +249,7 @@ section .title::after {
 /* Linear Gradient */
 .home .home-content .text-3 span {
   color: #1e3551;
-  background: linear-gradient(135deg, #ffffff, #00000050, #ffffff);
+  background: linear-gradient(135deg, #ffffff, white, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 500;
@@ -310,7 +310,7 @@ section .title::after {
 /* Linear Gradiant */
 .about .about-content .right .text span {
   /* color: #1e3551; */
-  background: linear-gradient(135deg, #041d3d, #fff, crimson);
+  background: linear-gradient(135deg, black, black, black);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -490,18 +490,18 @@ section .title::after {
 }
 
 .skills-content .right .css::before {
-  width: 60%;
+  width: 50%;
 }
 
 .skills-content .right .js::before {
   width: 40%;
 }
 
-.skills-content .right .bootstraps::before {
+.skills-content .right .cpp::before {
   width: 60%;
 }
 
-.skills-content .right .django::before {
+.skills-content .right .sql::before {
   width: 70%;
 }
 
